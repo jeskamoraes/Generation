@@ -32,7 +32,7 @@ public class ExemploMatriz02 {
 				System.out.print(notasAlunos[l][c] + " | ");
 			}
 			System.out.println();
-			System.out.println("\n---> Média do " + (l + 1) + "º aluno: " + (soma / 4) + "\n");
+			System.out.printf("---> Média do aluno: %.2f \n" , (soma / 4));
 		}
 
 		entrada.close();
